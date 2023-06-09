@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stilo/styles.css">
+    <title>Juego de adivinanzas</title>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Trabajo practico final</h1>
+        <nav>
+            <ul>
+                <li><a href="formulario.html">Adivinanzas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Juego de Adivinanzas</h1>
+
+    <form id="juego-adivinanzas">
+        <div>
+            <label for="adivinanza1">Adivinanza 1: Tengo ojos y no puedo ver, tengo piernas y no puedo caminar. ¿Qué soy?</label>
+            <input type="text" id="adivinanza1" name="adivinanza1" required>
+        </div>
+        <div>
+            <label for="adivinanza2">Adivinanza 2: Blanco por dentro, verde por fuera. Si quieres que te lo diga, espera.</label>
+            <input type="text" id="adivinanza2" name="adivinanza2" required>
+        </div>
+        <div>
+            <label for="adivinanza3">Adivinanza 3: Verde por fuera, roja por dentro. Si no la adivinas, ¡eres un distraído!</label>
+            <input type="text" id="adivinanza3" name="adivinanza3" required>
+        </div>
+        <button type="submit">Enviar respuestas</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <button id="reiniciar">Reiniciar juego</button><br>
+
+
+    
+    <footer>
+        <a href="index.html" class="link-1">Volver a la página principal</a>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/mijs.js"></script>
+</body>
+
+</html>

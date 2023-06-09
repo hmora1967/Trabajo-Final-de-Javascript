@@ -1,0 +1,102 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .link-1{
+    text-decoration: none;
+  }
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos para el enlace del menú */
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el formulario */
+  div {
+    display: flex;
+    flex-direction:column;
+    margin-left: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 3px;
+  }
+  
+  
+
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  .color{
+    color: red;
+  }
+  form {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+
+  }
+
+ 
+  .ancho{
+    width: 190px; /* Ancho deseado */
+    height: 1px; /* Altura deseada */
+  }
+  
+ 
+  .correcta {
+    color: green;
+  }
+
+  .incorrecta {
+    color: red;
+  }
+ /* estilos para el juego adivinanzas */
+ /* styles.css */
+
+#juego-adivinanzas {
+  margin-top: 20px;
+}
+
+#juego-adivinanzas div {
+  margin-bottom: 10px;
+}
+
+#juego-adivinanzas label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#juego-adivinanzas input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#juego-adivinanzas button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
